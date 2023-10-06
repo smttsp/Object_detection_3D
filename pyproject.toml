@@ -5,7 +5,9 @@ description = "This is a 3D object detection project for autonomous driving."
 authors = ["samet <samettaspinarx@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
+torch = "^2.1.0"
+torchvision = "^0.16.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^3.8.4"
@@ -13,6 +15,7 @@ pytest-cov = "^2.10.1"
 isort = "^5.6.4"
 ruff = "^0.0.290"
 pytest = "^7.4.2"
+matplotlib = "^3.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
