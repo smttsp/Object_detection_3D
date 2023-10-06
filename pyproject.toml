@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "example_template"
+name = "object_detection_3D"
 version = "1.0.0"
-description = "This is a template example for python packages"
+description = "This is a 3D object detection project for autonomous driving."
 authors = ["samet <samettaspinarx@gmail.com>"]
 
 [tool.poetry.dependencies]
