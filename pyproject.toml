@@ -8,6 +8,7 @@ authors = ["samet <samettaspinarx@gmail.com>"]
 python = "^3.9"
 torch = "^2.1.0"
 torchvision = "^0.16.0"
+lyft-dataset-sdk = "^0.0.8"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^3.8.4"
